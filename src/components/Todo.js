@@ -5,10 +5,10 @@ function Todo(props) {
     }
 
   return (
-    <div className="card">
-      <h2>{props.title}</h2>
-      <div className="actions">
-        <button className="btn" onClick={deleteHandler}>Delete</button>
+    <div className="card m-3">
+      <h2 className="card-title">{props.title}</h2>
+      <div className="card-footer">
+        <button className="btn btn-danger" onClick={deleteHandler}>Delete</button>
       </div>
     </div>
   );
