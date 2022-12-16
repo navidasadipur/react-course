@@ -20,7 +20,11 @@ h2 {
   color: #2c292b;
 }
 
-.card{
-  background-color: white;
-  width: 30%;
+.backdrop{
+  position: fixed;
+  backdrop-filter: blur(2px);
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
 }
